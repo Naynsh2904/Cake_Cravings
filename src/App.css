@@ -1,0 +1,80 @@
+@font-face {
+  font-family: Heading;
+  src: url("../public/Fonts/kholic.woff");
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+nav {
+  z-index: 410;
+
+  li {
+    font-family: "Abril Fatface", serif;
+    font-weight: 600;
+    font-size: 16px;
+    border: 1px solid rgba(128, 128, 128, 0.365);
+  }
+
+  li:hover {
+    box-shadow: 0 0 5px rgba(128, 128, 128, 0.534);
+  }
+}
+
+.abril-fatface-regular {
+  font-family: "Abril Fatface", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 {
+  font-family: Heading;
+}
+
+.parent {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+
+  img {
+    object-fit: contain;
+  }
+
+  span {
+    color: #000;
+  }
+
+  .carousel-item {
+    position: relative;
+
+    .caption {
+      padding: 0 55px;
+      position: absolute;
+      top: 0;
+      left: 0;
+      background-color: #00000020;
+
+      div {
+        padding: 15px 25PX;
+        height: 60%;
+        margin-top: 75px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px gray;
+        border: 1px solid gray;
+      }
+
+      h2 {
+        font-family: Heading;
+        font-size: 20px;
+        font-weight: 600;
+        opacity: 1;
+      }
+
+      p {
+        font-family: "Abril Fatface", serif;
+        font-weight: 500;
+        font-size: 16px;
+        opacity: 1;
+      }
+    }
+  }
+}
