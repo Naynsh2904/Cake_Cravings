@@ -16,7 +16,7 @@ const Home = () => {
                 className="d-block w-100"
                 alt="Cake 1"
               />
-              <div className="caption d-flex justify-content-center   w-100 h-100">
+              <div className="caption d-flex justify-content-center  align-items-center w-100 h-100">
                 <div style={{ backgroundColor: '#c7b3cf78' }}>
                   <h2 className="text-center">
                     Baking happiness, one slice at a time!
@@ -36,7 +36,7 @@ const Home = () => {
                 className="d-block w-100"
                 alt="Cake 2"
               />
-              <div className="caption d-flex justify-content-center   w-100 h-100  ">
+              <div className="caption d-flex justify-content-center align-items-center  w-100 h-100  ">
                 <div style={{ backgroundColor: '#9da4a680' }}>
                   <h2 className="text-center">
                     Indulge in the sweetest moments of life!
@@ -56,7 +56,7 @@ const Home = () => {
                 className="d-block w-100"
                 alt="Cake 3"
               />
-              <div className="caption d-flex justify-content-center   w-100 h-100  ">
+              <div className="caption d-flex justify-content-center align-items-center  w-100 h-100  ">
                 <div style={{ backgroundColor: '#a6b4b37a' }}>
                   <h2 className="text-center">
                     Where every cake tells a story
@@ -76,7 +76,7 @@ const Home = () => {
                 className="d-block w-100"
                 alt="Cake 4"
               />
-              <div className="caption d-flex justify-content-center   w-100 h-100  ">
+              <div className="caption d-flex justify-content-center align-items-center  w-100 h-100  ">
                 <div style={{ backgroundColor: '#a19e946d' }}>
                   <h2 className="text-center">
                     From our oven to your celebration

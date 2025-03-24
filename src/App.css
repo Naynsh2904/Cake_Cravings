@@ -55,8 +55,6 @@ h1 {
 
       div {
         padding: 15px 25PX;
-        height: 60%;
-        margin-top: 75px;
         border-radius: 10px;
         box-shadow: 0 0 10px gray;
         border: 1px solid gray;
@@ -64,7 +62,7 @@ h1 {
 
       h2 {
         font-family: Heading;
-        font-size: 20px;
+        font-size: 25px;
         font-weight: 600;
         opacity: 1;
       }
