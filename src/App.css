@@ -4,6 +4,7 @@
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Carattere&display=swap');
 
 nav {
   z-index: 410;
@@ -20,14 +21,44 @@ nav {
   }
 }
 
-.abril-fatface-regular {
-  font-family: "Abril Fatface", serif;
-  font-weight: 400;
-  font-style: normal;
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  box-sizing: border-box;
 }
 
 h1 {
   font-family: Heading;
+}
+
+.hero {
+  position: relative;
+
+  .caption {
+    position: absolute;
+    top: -50px;
+    left: 0;
+
+    h4 {
+      font-family: "Carattere", cursive;
+      color: #BB9E60;
+      font-size: 30px;
+      font-weight: 200;
+    }
+
+    h2 {
+      font-family: Heading;
+      font-size: 50px;
+      color: #210F37;
+    }
+
+    p {
+      font-family: "Abril Fatface", serif;
+      font-weight: 500;
+      font-size: 20px;
+    }
+  }
 }
 
 .parent {

@@ -3,6 +3,21 @@ import React from 'react';
 const Home = () => {
   return (
     <>
+      <div className="hero">
+        <img src="./images/h1-slide-1.jpg" alt="" className="w-100" />
+        <div className="caption d-flex justify-content-center align-items-center h-100">
+          <div className="text-center px-5">
+            <h4 className="pb-3">Sweets bites for you</h4>
+            <h2 className="m-0">TASTEFUL</h2>
+            <img src="./images/h1-slide-1-img-1.png" alt="" />
+            <p>
+              It's always good time for sweets! Made with care and prepared with
+              love, our sweets are all you might need to make every day special.
+              Find your favorite now
+            </p>
+          </div>
+        </div>
+      </div>
       <div className="parent">
         <div
           id="cakeCarousel"
