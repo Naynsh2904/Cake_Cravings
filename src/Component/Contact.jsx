@@ -27,7 +27,7 @@ const Contact = () => {
               CONTACT US
             </h2>
             <img
-              data-aos="fade-left"
+              data-aos="zoom-out-down"
               data-aos-duration="1200"
               src="./images/h1-slide-1-img-1.png"
               alt=""

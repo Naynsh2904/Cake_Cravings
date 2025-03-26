@@ -11,8 +11,8 @@ const Map = () => {
       <div className="hero">
         <img src="./images/foot.jpg" alt="" className="w-100" />
         <div className="caption d-flex justify-content-center align-items-center h-100 w-100">
-          <div className="text-center pt-1">
-            <h4 className="text-center py-2 fs-1">This is my Hometown </h4>
+          <div className="text-center pt-5">
+            <h4 className="text-center text-black py-2 pb-3 fs-1">This is my Hometown </h4>
             <div className="d-flex justify-content-center pb-5">
               <iframe
                 title="Tanvi Magare's Location"
@@ -24,7 +24,7 @@ const Map = () => {
                 referrerPolicy="no-referrer-when-downgrade"
               ></iframe>
             </div>
-            <p>
+            <p className='pt-3'>
               Copyright © 2024 All rights reserved | This template is made with
               🧡 by Nayan Shivankar
             </p>
