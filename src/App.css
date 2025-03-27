@@ -71,133 +71,31 @@ h3 {
   font-family: reg;
   font-size: 30px;
   font-weight: 500;
-  
+
 }
 
 .price {
   .card {
     border: 1px solid #BB9E60;
+
     h3 {
       font-size: 50px;
       font-weight: 600;
       color: #210F37;
     }
+
     h5 {
       font-family: reg;
     }
   }
-} 
+}
 
 span {
   font-family: head;
 }
-
-/* h4 {
-  font-family: spc;
-  color: #210F37;
-} */
 
 iframe {
   border-radius: 5px;
   border: 1px solid black;
   box-shadow: 0 0 5px gray;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* 
-.parent {
-  width: 100vw;
-  height: 100vh;
-  overflow: hidden;
-
-  img {
-    object-fit: contain;
-  }
-
-  span {
-    color: #000;
-  }
-
-  .carousel-item {
-    position: relative;
-
-    .caption {
-      padding: 0 55px;
-      position: absolute;
-      top: 0;
-      left: 0;
-      background-color: #00000020;
-
-      div {
-        padding: 15px 25PX;
-        border-radius: 10px;
-        box-shadow: 0 0 10px gray;
-        border: 1px solid gray;
-      }
-
-      h2 {
-        font-family: Heading;
-        font-size: 25px;
-        font-weight: 600;
-        opacity: 1;
-      }
-
-      p {
-        font-family: "Montserrat Alternates", sans-serif;
-        font-weight: 500;
-        font-size: 16px;
-        opacity: 1;
-      }
-    }
-  }
-} */

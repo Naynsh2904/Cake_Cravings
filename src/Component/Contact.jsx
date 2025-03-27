@@ -11,7 +11,7 @@ const Contact = () => {
       <div className="hero">
         <img src="./images/contact.jpg" alt="" className="w-100" />
         <div className="caption d-flex justify-content-center align-items-center h-100 w-100">
-          <div className="text-center">
+          <div className="text-center px-5">
             <h4
               data-aos="zoom-out-down"
               data-aos-duration="500"
@@ -43,7 +43,7 @@ const Contact = () => {
             >
               <p className="fs-2 mb-1">Instagram</p>
             </a>
-            <p className="px-5">
+            <p className="">
               Address: Nim chowk Pathari Taluka Saoli District Chandrapur,
               Maharastra.
             </p>

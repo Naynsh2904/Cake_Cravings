@@ -34,19 +34,19 @@ const Price = () => {
                 alt=""
               />
 
-              <div data-aos="zoom-out" className="py-3 my-4 card">
+              <div data-aos="fade-up" className="py-3 my-4 card">
                 <h4 className="mb-0">Small</h4>
                 <h3>&#8377; 250</h3>
                 <h5>(1/4 kg)</h5>
               </div>
 
-              <div data-aos="zoom-out" className="py-3 my-4 card">
+              <div data-aos="fade-up" className="py-3 my-4 card">
                 <h4 className="mb-0">Medium</h4>
                 <h3>&#8377; 350</h3>
                 <h5>(1/2 Kg)</h5>
               </div>
 
-              <div data-aos="zoom-out" className="py-3 my-4 card">
+              <div data-aos="fade-up" className="py-3 my-4 card">
                 <h4 className="mb-0">Large</h4>
                 <h3>&#8377; 700</h3>
                 <h5>(1 Kg)</h5>

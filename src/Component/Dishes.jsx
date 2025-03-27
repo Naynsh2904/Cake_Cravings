@@ -23,7 +23,7 @@ const Dishes = () => {
               className="pt-3"
             >
               <img className="pe-3" src="./images/download.svg" alt="" />
-              butterscotch Cake
+              Butterscotch Cake
             </h3>
             <h3
               data-aos="fade-up"

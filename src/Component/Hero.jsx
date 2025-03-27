@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 
+import AOS from 'aos';
 const Hero = () => {
   useEffect(() => {
     AOS.init({ duration: 1000 });
