@@ -11,7 +11,7 @@ const Contact = () => {
       <div className="hero">
         <img src="./images/contact.jpg" alt="" className="w-100" />
         <div className="caption d-flex justify-content-center align-items-center h-100 w-100">
-          <div className="text-center pt-5">
+          <div className="text-center">
             <h4
               data-aos="zoom-out-down"
               data-aos-duration="500"
@@ -32,17 +32,21 @@ const Contact = () => {
               src="./images/h1-slide-1-img-1.png"
               alt=""
             />
-            <h4 className="pt-2 fs-2">I'm Tanvi Magare</h4>
-            <p>
+            <h2 className="pt-2 fs-1">I'm Tanvi Magare</h2>
+            <p className="mb-1">
               Mobile No. : <span>9834659774</span>
             </p>
             <a
-              href="https://www.instagram.com/cakes.delights?igsh=M2wyaXlkb3RpMGN4"
+              href="https://www.instagram.com/_cakes.delights_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
               target="_blank"
               rel="noopener noreferrer"
             >
-              <p>Instagram</p>
+              <p className="fs-2 mb-1">Instagram</p>
             </a>
+            <p className="px-5">
+              Address: Nim chowk Pathari Taluka Saoli District Chandrapur,
+              Maharastra.
+            </p>
           </div>
         </div>
       </div>
